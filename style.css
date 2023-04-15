@@ -1,0 +1,71 @@
+body {
+    padding: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#display {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 4px 6px rgba(128, 128, 128, 0.945);
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#newButton {
+    display: flex;
+    justify-content: end;
+}
+
+#newBook {
+    display: inline-block;
+    margin-right: 10px;
+    background: #339DFF;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 38px;
+    border-radius: 50px;
+    transition: all 0.3s;
+    width: 170px;
+    height: 45px;
+    border: none;
+}
+
+#newBook:hover {
+    background: #fff;
+    color: #339DFF;
+    box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
+}
+
+#main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+#display > button {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    border: none;
+    background-image: inherit;
+    color: black;
+    
+}
+
+p {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+
+#display > #newcheckBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
